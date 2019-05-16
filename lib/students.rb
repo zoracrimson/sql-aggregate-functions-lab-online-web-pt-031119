@@ -23,7 +23,7 @@ def counts_all_students_groups_by_grade
 end	
 
 
-def average_student_gpa_for_9th_grade
-  "SELECT AVG (students.gpa) FROM students WHERE grade = 9;"
-end	
+def average_gpa_for_9th_grade
+  "SELECT AVG(gpa) FROM students WHERE grade = 9;"
+end
 
